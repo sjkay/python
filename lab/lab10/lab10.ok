@@ -1,0 +1,29 @@
+{  
+    "name": "Lab 10",
+    "endpoint": "cal/cs61a/su15/lab10",
+    "src": [
+        "lab10.py"
+    ],
+    "tests": {
+        "lab10.py": "doctest",
+        "lab10_extra.py": "doctest",
+        "tests/mul.py": "ok_test",
+        "tests/delitem.py": "ok_test"
+    },
+    "default_tests": [
+        "MixedJuiceVendor",
+        "total_revenue",
+        "max_revenue",
+        "is_palindrome",
+        "mul",
+        "avoid_keyerror"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}

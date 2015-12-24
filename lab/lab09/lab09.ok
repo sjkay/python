@@ -1,0 +1,28 @@
+{
+    "name": "Lab 9",
+    "endpoint": "cal/cs61a/su15/lab09",
+    "src": [
+        "lab09.py"
+    ],
+    "tests": {
+        "lab09.py": "doctest",
+        "lab09_extra.py": "doctest",
+        "tests/wwpp.py": "ok_test"
+    },
+    "default_tests": [
+        "wwpp",
+        "link_to_list",
+        "list_to_link",
+        "deep_map_mut",
+        "insert"
+    ],
+    "protocols": [
+        "unlock",
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}

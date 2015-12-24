@@ -1,0 +1,17 @@
+{
+    "name": "Lab Makeup",
+    "endpoint": "cal/cs61a/su15/labMakeup",
+    "src": [
+        "labMakeup.py"
+    ],
+    "tests": {
+        "labMakeup.py": "doctest"
+    },
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}
